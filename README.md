@@ -1,4 +1,4 @@
-# practical08-solution
+# practical08
 
 ## DUE: November 23 by 9:10am
 
