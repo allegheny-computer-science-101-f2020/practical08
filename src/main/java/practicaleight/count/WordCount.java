@@ -74,24 +74,14 @@ public class WordCount {
     } catch (IOException exception) {
       exception.printStackTrace();
     }
-    // place the words inside of the TreeMap to count frequencies
-    while (doc.hasNext()) {
-      String word = doc.next().toLowerCase();
-      Integer count = freq.get(word);
-      if (count == null) {
-        count = 0;
-      }
-      freq.put(word, 1 + count);
-    }
+    // TODO: place the words inside of the TreeMap to count frequencies
+
     System.out.println("... Finished reading and tracking the words in the original file.\n");
     System.out.println("Analysis of the words in the original file ...\n");
-    // display the key value pairs as they are stored in the TreeMap
-    System.out.println("(key, value) pairs sorted by key:\n");
-    System.out.println(freq);
-    System.out.println();
-    // display the key value pairs after they have been sorted by values
-    System.out.println("(key, value) pairs sorted by value and key:\n");
-    System.out.println(entriesSortedByValues(freq));
+    
+    // TODO: display the key value pairs as they are stored in the TreeMap
+    // TODO: display the key value pairs after they have been sorted by values
+
     System.out.println("\n... Finished the analysis of the words in the original file.");
 
     // TODO: read in all of the words from the new file
