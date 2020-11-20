@@ -21,15 +21,9 @@ jobs:
         echo "eval '$(pyenv init -)'" >> ~/.bashrc
         eval "$(pyenv virtualenv-init -)" >> ~/.bashrc
         source ~/.bashrc
-        # sudo apt-get install rename
         pyenv global 3.6.3
         pip install --upgrade pip
         pip install pipenv
-        # pip install notebook
-        # pipenv install --dev --three
-        # pipenv run flake8 src
-        # pipenv run black --check src
-        # pipenv run pylint src
     - name: Check practical
       run: |
         gradle grade
