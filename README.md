@@ -147,4 +147,4 @@ If you are having trouble completing any part of this project, then please talk 
 
 The grade that a student receives on this practical assignment is a checkmark grade (0 or 1) and is based on:
 
-- **Percentage of Correct Gatorgrader Checks**: Students will receive 1 if their solution passes at least 85% (24/28) of GatorGrader checks, otherwise they will receive 0\. Students are encouraged to repeatedly revise their source code in an attempt to get their GitHub Actions CI build to pass.
+- **Percentage of Correct Gatorgrader Checks**: Students will receive 1 if their solution passes at least 81% (13/16) of GatorGrader checks, otherwise they will receive 0\. Students are encouraged to repeatedly revise their source code in an attempt to get their GitHub Actions CI build to pass.
